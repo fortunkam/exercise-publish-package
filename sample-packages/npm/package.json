@@ -1,8 +1,12 @@
 {
-  "name": "exercise-publish-package",
+  "name": "@fortunkam/exercise-publish-package",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fortunkam/exercise-publish-package.git"
+    "url": "git+https://github.com/fortunkam/exercise-publish-package.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/",
+    "access": "public"
   }
 }
